@@ -93,7 +93,7 @@ echo "Unmounting Partitions"
 umount -l /mnt/gentoo/dev{/shm,/pts,}
 umount -R /mnt/gentoo
 sleep 4
-echo "Just So You Know It To Me Almost 9hrs To Debug This :)"
+echo "Just So You Know It Took Me Almost 9hrs To Debug This :)"
 read -p "IF YOU WANT TO REBOOT ENTER yes(y) OR, IF YOU WANT TO STAY ENTER no(n)" reboot_op
 case "$reboot_op" in
 	[Yy]|[Yy][Ee][Ss])
