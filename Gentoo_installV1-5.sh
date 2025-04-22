@@ -84,5 +84,7 @@ esac
 sleep 5
 echo "chrooting in to the root drive."
 cp chroot_gen.sh /mnt/gentoo/root/
+sleep 5
 chmod +x /mnt/gentoo/root/chroot_gen.sh
+sleep 5
 chroot /mnt/gentoo /root/chroot_gen.sh
